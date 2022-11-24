@@ -1,0 +1,193 @@
+/*===================================== GENERAL CSS ==========================================*/
+/*===================================== NAVIGATION ==========================================*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.824);
+}
+.navbar .container-fluid .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.navbar .container-fluid .nav-link {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.navbar .container-fluid .nav-link:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.navbar-toggler {
+    color: rgba(255, 255, 255, 0.567);
+    background-color: rgba(255, 255, 255, 0.125);
+}
+nav .logo_container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+nav .logo {
+    width: 40px;
+    text-align: center;
+}
+nav .audio {
+    position: absolute;
+    top: 23px;
+    right: 100px;
+}
+nav .audio audio {
+    display: none;
+    width: 300px;
+    height: 20px;
+}
+/*===================================== NAVIGATION ==========================================*/
+/*===================================== HEADER ==========================================*/
+.header .logo_container_home {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.header .logo_container_home .logo {
+    width: 300px;
+}
+/*===================================== HEADER ==========================================*/
+/*===================================== BIOGRAPHY HTML ==========================================*/
+.block01 {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.824);
+}
+.biography_content {
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(166, 166, 166, 0.824);
+}
+.biography_content .title {
+    text-align: center;
+    margin: 50px;
+}
+.biography_content .title div {
+    display: inline;
+    font-size: 40px;
+}
+.biography_content .profile {
+    text-align: center;
+}
+.biography_content .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px;
+}
+.biography_content .image:hover {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.887);
+    transition: 0.2s;
+}
+.biography_content .education .elementary, .jhs, .shs {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    font-size: 20px;
+}
+.biography_content .education .elementary:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.912);
+    transition: 0.3s;
+}
+.biography_content .education .jhs:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.912);
+    transition: 0.3s;
+}
+.biography_content .shs:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.912);
+    transition: 0.3s;
+}
+/*===================================== BIOGRAPHY HTML ==========================================*/
+/*===================================== HOBBY HTML ==========================================*/
+.hobby_content {
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.824);
+}
+.hobby_content .title {
+    text-align: center;
+    font-size: 40px;
+}
+.hobby_content .paragraph {
+    text-align: center;
+    font-size: 20px;
+}
+/*===================================== HOBBY HTML ==========================================*/
+/*===================================== ABOUT ME HTML ==========================================*/
+.aboutme {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.824);
+}
+.aboutme img {
+    width: 200px;
+    border-radius: 50%;
+}
+.aboutme img:hover {
+    width: 200px;
+    padding: 20px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.755);
+}
+.aboutme .about {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.aboutme .profile {
+    margin: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutme .info {
+    font-size: 40px;
+    font-family: calibri light;
+    color: rgb(255, 255, 255);
+}
+.aboutme .contact_info {
+    font-size: 20px;
+}
+/*===================================== ABOUT ME HTML ==========================================*/
+/*======================================= FOOTER ==========================================*/
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.824);
+}
+footer p {
+    margin-bottom: auto;
+    color: rgba(255, 255, 255, 0.824);
+}
+footer #icons {
+    width: 15%;
+    margin: 0 auto;
+}
+footer th {
+    width: 45px;
+}
+footer .icon {
+    width: 40px;
+    padding: 5px;
+}
+footer .icon:hover {
+    padding: 10px;
+    border-radius:50%;
+    background-color: rgba(255, 255, 255, 0.69);
+    transition: 0.1s;
+} 
+footer .copyright {
+    text-align: center;
+    font-family: calibri;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+/*======================================= FOOTER ==========================================*/
+/*===================================== GENERAL CSS ==========================================*/
